@@ -8,10 +8,6 @@ a {
     text-align: center;
 }
 
-.container {
-    margin-top: 20px;
-}
-
 .header {
     width: 100%;
     display: flex;
@@ -22,6 +18,7 @@ a {
 /* LOGO */
 
 .logo {
+    margin-top: 20px;
     height: 100%;
     justify-content: center;
     align-items: center;
@@ -59,6 +56,7 @@ a {
 /* SOCIAL NET.*/
 
 .social {
+    margin-top: 20px;
     height: 100%;
 }
 
