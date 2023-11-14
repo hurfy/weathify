@@ -1,0 +1,43 @@
+span {
+    font-size: 36px;
+    color: #24292F;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+}
+
+.weathify {
+    margin: -9px 0 0 5px;
+}
+
+.weath {
+    font-weight: 600;
+}
+
+.ify {
+    font-weight: 300;
+    margin-left: -5px;
+}
+
+.git {
+    margin-right: 21px;
+}
+
