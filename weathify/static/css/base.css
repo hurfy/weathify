@@ -3,3 +3,27 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+@keyframes revealFromRight {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes rightAnimation {
+    0% {
+        transform: translateX(30%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes opacityAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

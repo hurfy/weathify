@@ -19,9 +19,28 @@ a {
     justify-content: space-between;
 }
 
+/* LOGO */
+
+.logo {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
 .home {
     display: flex;
     align-items: center;
+}
+
+.home svg {
+    transform-origin: right center;
+    transform: scaleX(0);
+    animation: revealFromRight 0.5s forwards 0.35s;
+}
+
+.home .weathify {
+    transform: translateX(30%);
+    animation: rightAnimation 0.5s forwards, opacityAnimation 0.5s;
 }
 
 .weathify {
@@ -37,7 +56,15 @@ a {
     margin-left: -5px;
 }
 
+/* SOCIAL NET.*/
+
+.social {
+    height: 100%;
+}
+
 .git {
     margin-right: 21px;
 }
+
+
 
