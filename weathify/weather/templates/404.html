@@ -1,0 +1,9 @@
+{% load static%}
+<link rel="stylesheet" href="{% static 'css/404.css' %}">
+
+{% block page_404 %}
+    <div class="error flex flex-col">
+        <img src="{% static 'img/404.png'%}" width="35%" height="auto">
+        <h1 class="text-center text-4xl text-black font-medium">404 oops...<br>Page Not Found!</h1>
+    </div>
+{% endblock %}
