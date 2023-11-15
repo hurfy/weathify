@@ -1,0 +1,59 @@
+.content {
+    justify-content: space-between
+    flex-direction: column
+    margin-top: 14px /*Внешний отступ*/
+    padding/*Внутренний отступ*/
+
+}
+
+
+.sm-content {
+    justify-content: space-between;
+   }
+
+
+.sm-text {
+    color: var(--Dark, #24292F);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line {
+    border: none;
+    background-color: black;
+    height: 1px;
+    margin-top:14px;
+    margin-bottom:46px;
+
+}
+
+.input-tx {
+    margin-top:75px;
+    width:752px;
+    height:63px;
+    background-color:#EDEDED;
+    border-radius: 10px;
+    outline:none;
+}
+
+
+.text-* {
+    color: var(--Dark, #24292F);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: center;
+}
+.content-tx {
+   margin-top: 132px;
+}
+
+
+.border-tx {
+    text-decoration: underline;
+}
