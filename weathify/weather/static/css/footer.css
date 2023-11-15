@@ -1,40 +1,33 @@
 .footer {
     margin-bottom: 10px;
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
+/* BRAND */
+
 .brand {
-    display: flex;
-    flex-direction: column;
     align-items: start;
 }
 
-.brand p {
-    margin-top: 7px;
-}
-
-.logo-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo-btn span {
-    font-size: 24px;
-}
-
 .weathify-btn {
-    margin: -5px 0 0 5px;
+    margin-top: -6px;
+    margin-left: 5px;
 }
+
+.logo-light-btn {
+    margin-left: -6px;
+}
+
+/* COPYRIGHTS */
 
 .copyrights {
-    display: flex;
-    flex-direction: column;
     align-items: end;
 }
 
 .footer-git {
     margin-right: 13px;
+}
+
+.footer p {
+    margin-top: 10px;
 }
