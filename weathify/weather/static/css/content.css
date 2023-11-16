@@ -9,18 +9,23 @@
     justify-content: space-between;
 }
 
-
 .sm-content {
     justify-content: space-between;
-   }
-
+}
 
 .sm-text {
+     /* Лишнее, цвет можно задать классом в HTML
+     И если уж на то пошло, то просто color: #24292F*/
     color: var(--Dark, #24292F);
+    /* Семейство шрифтов указано глобально, оно автоматически будет применятся везде */
     font-family: Montserrat;
+    /* Размер шрифта так же можно задать классом в HTML */
     font-size: 40px;
+    /* Лишнее */
     font-style: normal;
+    /* Классом в HTML */
     font-weight: 400;
+    /* Лишнее */
     line-height: normal;
 }
 
@@ -30,11 +35,11 @@
     height: 1px;
     margin-top:14px;
     margin-bottom:46px;
-
 }
 
 .input-tx {
     margin-top:75px;
+    /* Ширина в таком случае не будет резиновой, потому что мы жестко задали значение */
     width:752px;
     height:63px;
     background-color:#EDEDED;
@@ -42,20 +47,25 @@
     outline:none;
 }
 
-
 .text-* {
+    /* Лишнее, цвет можно задать классом в HTML
+     И если уж на то пошло, то просто color: #24292F*/
     color: var(--Dark, #24292F);
+    /* Семейство шрифтов указано глобально, оно автоматически будет применятся везде */
     font-family: Montserrat;
+    /* Размер шрифта так же можно задать классом в HTML */
     font-size: 13px;
+    /* Лишнее */
     font-style: normal;
     font-weight: 400;
+    /* Лишнее */
     line-height: normal;
     align-self: center;
 }
+
 .content-tx {
    margin-top: 132px;
 }
-
 
 .border-tx {
     text-decoration: underline;
