@@ -1,23 +1,24 @@
 {% load static %}
 
 <link rel="stylesheet" href="{% static 'css/content.css' %}">
+
 {% block page_content %}
 <div class="content flex flex-col">
     <div class="sm-content flex">
-        <img src="{% static 'img\unnamed.png' %}" width="437" height="500" alt="lorem" align="left">
+        <img class="main-img" src="{% static 'img\main.png' %}" alt="lorem">
         <div class="main-content flex flex-col">
             <h1 class="text-5xl font-medium">Your Forecast Hub in a Snap! :)</h1>
-            <hr class="line" width="755">
-            <h1 class="sm-text">How it works?</h1>
-            <h1 class="text-2xl flex"> Just start writing the name of a city, country or state</h1>
-            <h1 class="text-2xl flex">Get all information about the current weather in the selected</h1>
-            <h1 class="text-2xl flex">region</h1>
-            <p><input type="text" class="text-2xl input-tx" placeholder=" City, Country or State" ></p>
+            <hr class="line">
+            <h1 class="sm-text text-4xl font-normal">How it works?</h1>
+            <h1 class="text-2xl flex">Just start writing the name of a city, country or state<br>
+            Get all information about the current weather in the selected<br>
+            region</h1>
+            <input type="text" class="text-2xl input-tx" placeholder=" City, Country or State" >
         </div>
     </div>
     <div class="content-tx">
-    <p><h1 class="text-*">* We collect and process weather data from different sources such as global and local weather models,</h1>
-    <h1>satellites, radars and a vast network of weather stations ( <a href="https://openweathermap.org/api" class='border-tx'>OpenWeather</a>)</h1></p>
+        <h1 class="text-* text-sm">*We collect and process weather data from different sources such as global and local weather models,<br>
+        satellites, radars and a vast network of weather stations (<a href="https://openweathermap.org/api" class='border-tx'>OpenWeather</a>)</h1>
     </div>
 </div>
 
