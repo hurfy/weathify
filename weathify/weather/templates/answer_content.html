@@ -13,14 +13,12 @@
                     <hr class="line" style="margin-top: 15px">
                 </div>
                 <div class="faq">
-                    <h1 class="faq-tx sm-text text-4xl font-normal text-black">How it works?</h1>
-                    <h1 class="faq-info text-2xl text-slate-800">✏️Just start writing the name of a city, country or state<br>
-                        🙏Be a little patient, we need to process your request<br>
-                        🏙️Get all information about the current weather in the selected<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;region</h1>
-                </div>
+                    {{temperature}}
+                    {{weather}}
                 <form action="{% url 'answer_page' %}" class="flex flex-col">
                     <input type="text" name="usertext"  class="input-tx" placeholder= "City, cod of Country or cod of State">
                 </form>
+                </div>
             </div>
         </div>
         <div class="content-tx">

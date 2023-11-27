@@ -13,5 +13,4 @@ def weather_token():
 
     return token
 
-
 WEATHER_TOKEN = weather_token()
